@@ -343,7 +343,7 @@ async def login(data: LoginRequest, response: Response):
         email = id_info.get("email")
         name = id_info.get("name")
 
-        if email!="anand11206@gmail.com" and email!="adibarmola@gmail.com" and email!="nishant.yadav.ug24@nsut.ac.in":
+        if email!="anandyadav11206@gmail.com" and email!="adibarmola@gmail.com" and email!="nishant.yadav.ug24@nsut.ac.in":
              raise HTTPException(status_code=402, detail="Sign in not allowed")
 
         # 3. Create Session
